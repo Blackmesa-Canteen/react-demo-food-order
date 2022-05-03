@@ -8,6 +8,7 @@ const AvailableMeals = props => {
     const mealsList = DUMMY_MEALS.map(meal => {
         return (
             <MealItem
+                id={meal.id}
     key={meal.id}
     meal={meal}/>
         )
